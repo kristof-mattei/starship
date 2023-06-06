@@ -50,7 +50,7 @@ impl<'a> Default for AwsConfig<'a> {
     fn default() -> Self {
         AwsConfig {
             format: "on [$symbol($profile )(\\($region\\) )(\\[$duration\\] )]($style)",
-            symbol: "☁️  ",
+            symbol: "☁️ ",
             style: "bold yellow",
             disabled: false,
             region_aliases: HashMap::new(),
